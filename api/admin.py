@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from api.models import Product
+from .models import Product
 
 
 class ProductAdmin(admin.ModelAdmin):
